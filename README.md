@@ -1,5 +1,5 @@
 
-# 🚦 Nhận Diện Biển Báo Giao Thông với YOLOv5
+# 🚦 Trích xuất biển báo giao thông bằng thiết bị IoT
 
 Dự án này sử dụng mô hình YOLOv5 để huấn luyện và nhận diện các biển báo giao thông trong ảnh và video, ứng dụng vào hệ thống hỗ trợ giao thông thông minh.
 
