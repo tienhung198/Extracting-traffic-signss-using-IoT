@@ -88,5 +88,5 @@ project/
 
 ## 📬 Liên hệ
 
-> Email: huntvt218@gmail.com
+> Email: hungtvt218@gmail.com
 
