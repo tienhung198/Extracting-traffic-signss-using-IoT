@@ -1,0 +1,22 @@
+pip install tensorflow==2.10.0
+pip install pygame
+pip install gtts
+pip install cvzone
+pip install numpy<2 # nếu chạy tensorflow bị lỗi
+
+
+python 39: pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+python 310: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+train:
+python train.py --img 640 --batch 6 --epochs 10 --data data.yaml --weights yolov5su.pt --cache --device 0
+detect:
+python detect.py --weights last.pt --img 640 --conf 0.7 --source E:/DH/DOAN/KLTN-AI/yolov5/data/trafficc/test/images
+test gpu:
+import tensorflow as tf
+print(tf.test.is_built_with_cuda())
+print(tf.config.list_physical_devices('GPU'))
+
+truy cập môi trường ảo : .venv\Scripts\activate
+
+pip install -r requirements.txt comet_ml
